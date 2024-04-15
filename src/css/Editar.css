@@ -1,0 +1,42 @@
+.containerPrincipal {
+    text-align: center;
+    background-color: #E6D8BD;    
+    padding: 3% 3% 3% 3%;
+    min-height: 100vh;
+    display: flex; /* Usa flexbox para alinear los elementos */
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center; /* Alinea los elementos verticalmente en el centro */
+    align-items: center; /* Alinea los elementos horizontalmente en el centro */
+  }
+
+h2{
+    color: #282119;
+    font-family: monospace;
+}
+
+input{
+    flex: 3; 
+    width: 40em; /* Cambia el ancho del input */
+    padding: 10px; /* Agrega espacio interno al input */
+    border: 1px solid #ccc; /* Agrega un borde al input */
+    border-radius: 5px; /* Agrega esquinas redondeadas al input */
+    font-size: 16px; /* Cambia el tamaño del texto del input */
+    color: #333; /* Cambia el color del texto del input */
+    display: inline-block; 
+    margin-left: 2%; 
+}
+
+label{
+    color: #A54D27;
+    text-shadow: 0 0 black;
+    font-family: cursive;
+}
+
+button{
+    margin-top:5%;
+    border-radius: 3%;
+    background-color: #65371F;
+    border-style: none;
+    padding: 1%;
+    color: #fff;
+}

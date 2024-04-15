@@ -1,0 +1,42 @@
+input{
+    width: 20em; /* Cambia el ancho del input */
+    padding: 10px; /* Agrega espacio interno al input */
+    border: 1px solid #ccc; /* Agrega un borde al input */
+    border-radius: 5px; /* Agrega esquinas redondeadas al input */
+    font-size: 16px; /* Cambia el tamaño del texto del input */
+    color: #333; /* Cambia el color del texto del input */
+}
+
+.mi-tabla {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Fusiona los bordes de la tabla */
+  }
+  
+  .mi-tabla th, .mi-tabla td {
+    border: 1px solid #ddd; /* Agrega un borde de 1px sólido gris a las celdas */
+    padding: 8px; /* Agrega espacio interno a las celdas */
+    text-align: center; /* Alinea el texto a la izquierda dentro de las celdas */
+  }
+  
+  .mi-tabla th {
+    background-color: #65371F; /* Color de fondo gris claro para los encabezados */
+    color: #E6D8Bd;
+    text-align: center;
+  }
+  
+  .mi-tabla tr:hover {
+    background-color: #C97338; /* Cambia el color de fondo al pasar el cursor sobre las filas */
+  }
+
+  .mi-boton {
+    border: none;
+    color: #A54d27;
+    text-align: center; 
+    display: inline-block;
+    cursor: pointer; 
+    background-color: #fff;
+  }
+
+  .mi-pagination{
+    justify-content: center;
+  }

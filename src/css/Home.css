@@ -1,0 +1,16 @@
+.containerPrincipal {
+    text-align: center;
+    background-color: #E6D8BD;    
+    padding: 3% 3% 3% 3%;
+  }
+
+h1{
+    color: #282119;
+    font-family: monospace;
+}
+
+p{
+    color: #A54D27;
+    text-shadow: 0 0 black;
+    font-family: cursive;
+}
